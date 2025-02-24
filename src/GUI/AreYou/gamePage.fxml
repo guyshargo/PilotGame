@@ -9,6 +9,6 @@
 
     <Text layoutX="160" layoutY="100" text="Are you gay?" />
     <Button fx:id="yesButton" layoutX="150" layoutY="200" text="Yes" onAction="#handleYes" />
-    <Button fx:id="noButton" layoutX="250" layoutY="200" text="No" onMouseEntered="#handleNoHover" />
+    <Button fx:id="noButton" layoutX="250" layoutY="200" text="No" onMouseEntered="#handleNoButtonHover" />
 
 </AnchorPane>

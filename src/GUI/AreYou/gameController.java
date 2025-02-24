@@ -26,7 +26,7 @@ public class gameController {
     }
 
     @FXML
-    private void handleNoHover() {
+    private void handleNoButtonHover() {
         double newX = randomLocation.nextDouble() * (noButton.getScene().getWidth() - noButton.getWidth());
         double newY = randomLocation.nextDouble() * (noButton.getScene().getHeight() - noButton.getHeight());
         noButton.setLayoutX(newX);
