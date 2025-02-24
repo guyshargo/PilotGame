@@ -3,6 +3,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="GUI.Yes.yesPageController" prefHeight="400.0" prefWidth="600.0">
-    <Text fx:id="congratsText" text="Congrats Faggot" layoutX="250" layoutY="200" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Yes.yesPageController">
+    <Text fx:id="congratsText" layoutX="250" layoutY="200" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Congrats Faggot" />
 </AnchorPane>
